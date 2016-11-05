@@ -1,0 +1,40 @@
+html, body  
+	{background: red; 
+	 text-align: center; 
+	 font-size: 25px; 
+	 font-family: verdana, tahoma, arial, helvetica, sans-serif;
+	}
+body *
+	{margin: 8px; 
+	 padding: 5px; 
+	 font-size: 10px; 
+	 text-align: left;
+	}
+	
+	
+	
+	@media screen and (min-width: 480px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+img 
+  {border: 40px;
+	width: 200px;
+	height: 200px;
+	}
+h1 
+	{font-size: 20px; 
+	 font-weight: bold;
+	 color: yellow;
+	 
+	}
+h2 
+	{font-size: 30px;
+	}
+h3
+	{font-size: 20px; 
+	 font-weight: bold;
+	 color: white;
+	}
